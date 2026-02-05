@@ -1,0 +1,48 @@
+site_name: Digital Twin - Collaboration of Two Robotic Arms 
+site_description: This is the documentation for digital twinning of Universal Robots UR10 and Yasakawa HC10DT Robotic arms.
+site_author: Shivam Shivam
+site_favicon: img/logo-2.svg
+copyright: © Copyright 2026, Shivam Shivam.
+repo_url: https://gitlab.th-deg.de/ros2-devel/digital_twin
+nav:
+  - Home: index.md
+  - Installation: installation.md
+  - How-to Guides: How-to-Guides.md
+  - Demo: demo.md
+  - Glossary: glossary.md
+  - About: about.md
+  - Citations: citations.md
+  - Tags: tags.md
+
+theme: 
+  name: readthedocs
+  include_homepage_in_sidebar: false
+  # logo: img/logo-2.svg
+  page_title: hello
+  highlightjs: true
+  hijs_languages:
+      - python
+      - yaml
+  sticky_navigation: true
+markdown_extensions:
+    - toc:
+        permalink: True
+        separator: "_"
+language: de
+plugins:
+  - search
+# markdown_extensions:
+#   - pymdownx.arithmatex:
+#       generic: true
+
+# ------------------------------------------------
+# For exporting to pdf
+# plugins:
+#   - to-pdf:
+#       author: Shivam Shivam
+#       cover_title: Title for the Cover Page
+#       toc_title: "Table of Contents"
+#       toc_level: 3
+#       ordered_chapter_level: 3
+#       heading_shift: false
+#       output_path: pdf/document.pdf
